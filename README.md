@@ -1,7 +1,7 @@
 # 🚀 Portfolio  
 
-Welcome to my portfolio redirect repository!  
-This project serves as a simple redirect page that points to my online portfolio.  
+Welcome to my portfolio repository!  
+This project serves as a simple page that points to my online portfolio.  
 
 👉 **Check out my portfolio here:** [https://deepak1h.github.io/resume/](https://deepak1h.github.io/resume/)  
 
