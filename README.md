@@ -1,4 +1,4 @@
-# 🚀 Portfolio Redirect  
+# 🚀 Portfolio  
 
 Welcome to my portfolio redirect repository!  
 This project serves as a simple redirect page that points to my online portfolio.  
