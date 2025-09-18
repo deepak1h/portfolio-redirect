@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="2; url=https://portfolio-tau-bice-79.vercel.app/" />
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #e0e7ff 0%, #f7f7fb 100%);
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #222;
+    }
+    .box {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(40, 60, 120, 0.12);
+      padding: 40px 32px 32px 32px;
+      max-width: 420px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: 0.01em;
+      color: #0b63ff;
+      background: linear-gradient(90deg, #0b63ff 60%, #6c47ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 18px;
+      color: #444;
+    }
+    a {
+      color: #0b63ff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #6c47ff;
+      text-decoration: underline;
+    }
+    .spinner {
+      margin: 0 auto 18px auto;
+      width: 48px;
+      height: 48px;
+      border: 5px solid #e0e7ff;
+      border-top: 5px solid #0b63ff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      display: block;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .fade-in {
+      animation: fadeIn 1.2s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(16px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="box fade-in">
+    <div class="spinner"></div>
+    <h2>Redirecting…</h2>
+    <p>Hang tight! You’re on your way to my portfolio.<br>
+      If you’re not redirected automatically, <a href="https://portfolio-tau-bice-79.vercel.app/">click here</a>.
+    </p>
+  </div>
+</body>
